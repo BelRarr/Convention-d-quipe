@@ -11,7 +11,7 @@
 |	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
 
 ## Qu’est-ce que du code propre ?
-| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Qu’est-ce que du code sale ?   | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+)Qu’est-ce que du code propre ? |
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Qu’est-ce que du code sale ?   | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Qu’est-ce que du code propre ? |
 |:----------|:----------|
 |	Un marécage où on se perd | Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. *Nicolas Boileau* !
 |	Aussi loin qu’on avance à la recherche d’un indice, tout ce que l’on voit c’est du code sans signification| Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. *Einstein* |
