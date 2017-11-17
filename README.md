@@ -12,38 +12,46 @@
 ![WTF](./img/WTF.jpg)
 * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? »
 
-## Agenda of this lab
+## Qu’est-ce que du code sale ?
+-	Un marécage où on se perd
+-	Aussi loin qu’on avance à la recherche d’un indice, 
+tout ce que l’on voit c’est du code sans signification
+-	Du code sans structure
+-	Du code dupliqué
+-	Un patchwork 1000 fois reprisé
+-	Complexité inutile
+-	Structures de données mal adaptées au besoin
+-	Commentaires inappropriés
 
-1. [Introduction](./docs/Introduction/README.md)
-2. [Lab 1 - Source control](./docs/Lab%201%20-%20Source%20control/README.md)
-3. [Lab 2 - Continuous Integration](./docs/Lab%202%20-%20Continuous%20Integration/README.md)
-4. [Lab 3 - Continuous Delivery](./docs/Lab%203%20-%20Continuous%20Delivery/README.md)
-5. [Lab 4 - Monitoring](./docs/Lab%204%20-%20Monitoring/README.md)
-6. [Lab 5 - Decoupling with Microservices](./docs/Lab%205%20-%20Decoupling%20with%20Microservices/README.md)
-7. [Conclusion](./docs/Conclusion/README.md)
-
-Note: It's important to follow the entire lab in the order exposed, each lab add a key feature for the project which will be used by the further steps.
-
-## Prerequisities
-
-- 1 Microsoft Azure subscription
-  - If you don't have one, ... TODO
-- 1 Visual Studio Team Services account + 1 VSTS Project
-  - If you don't have one, ... TODO
-- 1 Slack account + 1 Slack channel
-  - If you don't have one, ... TODO
-- 1 Web Browser (Edge, Chrome or FireFox for example)
-
-## Duration
-
-- Total duration of this lab: 90 min
-
-## Resources
-
-- [12-Factor App](https://12factor.net/)
-- [Journey to Cloud Cadence](https://www.youtube.com/watch?v=Lprj_4Wpi2s)
-- [VSTS: From Monolith to Cloud Service](https://www.youtube.com/watch?v=9frodP5xLxk)
-- [Agile at Microsoft](https://www.youtube.com/watch?v=-LvCJpnNljU)
-- [Visual Studio Team Services- Hands-on-Labs](https://almvm.azurewebsites.net/labs/vsts/)
-- [DevOps with VSTS](https://alwaysupalwayson.blogspot.com/2017/04/devops-with-vsts.html)
-- [Agile Tour Quebec city 2016 - Your DevOps journey starts with ALM!](https://alwaysupalwayson.blogspot.com/2016/11/agile-tour-quebec-city-2016-your-devops.html)
+## Qu’est-ce que du code propre ?
+-	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
+-	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
+-	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
+### Lisible
+Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents.
+Qu’est ce qui est le plus facile à lire ?
+public List<int[]> getThem(List<int[]> theList){
+  List<int[]> list1 = new ArrayList<int[]>();
+  foreach (int[] x in theList)
+     if (x[0] == 4)
+       list1.Add(x);
+  return list1;
+}
+public List<Cell> getFlaggedCells(List<Cell> gameBoard){
+  List<Cell> flaggedCells = new ArrayList<Cell>();
+  foreach (Cell cell in gameBoard)
+    if (cell.isFlagged())
+      flaggedCells.Add(cell);
+  return flaggedCells;
+}
+public List<Cell> getFlaggedCells(List<Cell> gameBoard){
+  return gameBoard.Where(cell => cell.isFlagged());
+}
+### Élégant
+Assez simple et direct pour ne pas laisser de place aux bugs.
+### Facile à modifier
+Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.
+### Écrit avec soin
+Aucun problème évident ne saute aux yeux.
+### Sans surprise
+Le corps des méthodes est ce que l’on avait deviné
