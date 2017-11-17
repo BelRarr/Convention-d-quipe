@@ -1,6 +1,7 @@
 # Conventions d'équipe
 
 ## Pourquoi du code de qualité ?
+| Tables   | 
 |----------|
 |	Au fur et à mesure que le désordre augmente, la productivité tend vers 0  |
 |	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
