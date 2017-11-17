@@ -1,5 +1,7 @@
 # Conventions d'équipe
 
+## La règle du Boy Scout
+- Laisser le code source plus propre que ce que vous l’avez trouvé.
 
 | Pourquoi du code de qualité ?   | Le WTFs/Minute pour mesurer de la qualité du code |
 |:----------|:----------|
@@ -48,8 +50,7 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 - Aucun problème évident ne saute aux yeux.
 ### Sans surprise
 - Le corps des méthodes est ce que l’on avait deviné
-## La règle du Boy Scout
-- Laisser le code source plus propre que ce que vous l’avez trouvé.
+
 ## Qu’est-ce que du design sale ?
 | Nom   | Description |
 |:----------|:----------|
