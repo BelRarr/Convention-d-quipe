@@ -3,6 +3,7 @@
 ## La règle du Boy Scout
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
 - Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée
+
 | Pourquoi du code de qualité ?   | Le WTFs/Minute pour mesurer de la qualité du code |
 |:----------|:----------|
 | ![productivity](./img/productivity.jpg) | ![WTF](./img/WTF.jpg) |
