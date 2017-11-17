@@ -64,7 +64,7 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 
 | Principe   | Description |
 |:----------|:----------|
-| Garde ça stupidement simple! (KISS) | <ul><li>Toute complexité non indispensable devrait être évitée.</li><li>Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.</li><li>Notre ennemi numéro 1 en informatique : la complexité !</li></ul><br>|
+| Garde ça stupidement simple! (KISS) | <ul><li>Toute complexité non indispensable devrait être évitée.</li><li>Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.</li><li>Notre ennemi numéro 1 en informatique : la complexité !</li></ul>|
 | Vous n’en aurez pas besoin! (YAGNI) | Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.|
 | Ne vous répétez pas (DRY) | Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.|
 
