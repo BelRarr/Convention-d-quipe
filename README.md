@@ -1,7 +1,7 @@
 # Conventions d'équipe
 
 
-| Pourquoi du code de qualité ?   | Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute |
+| Pourquoi du code de qualité ?   | Le WTFs/Minute pour mesurer de la qualité du code |
 |:----------|:----------|
 | ![productivity](./img/productivity.jpg) | ![WTF](./img/WTF.jpg) |
 |	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 | * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? |
