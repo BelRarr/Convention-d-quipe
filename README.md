@@ -67,12 +67,12 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 | Principe   | Description |
 |:----------|:----------|
 | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Rigide | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
-| Fragile | Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.|
-| Immobile | Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle… |
-| Visceux | Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? |
-| Inutilement Complexe | La conception contient des éléments non utiles, souvent dans le but d’éviter les autres problèmes de design (abstractions non utiles par anticipation). |
-| Contient de la duplication inutile | Ici, on est dans la POCC (Programmation Orienté Copier-Coller). De l’abstraction ou de la composition aurait dû être faite.| 
-| Opaque | Le code est difficile à comprendre. Beaucoup de temps est investi en « reverse engineering » pour le comprendre et/ou les modifications de code introduisent des bugs dues à la non-compréhension.|
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Fragile | Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.|
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Immobile | Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle… |
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Visceux | Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? |
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Inutilement Complexe | La conception contient des éléments non utiles, souvent dans le but d’éviter les autres problèmes de design (abstractions non utiles par anticipation). |
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Contient de la duplication inutile | Ici, on est dans la POCC (Programmation Orienté Copier-Coller). De l’abstraction ou de la composition aurait dû être faite.| 
+| ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Opaque | Le code est difficile à comprendre. Beaucoup de temps est investi en « reverse engineering » pour le comprendre et/ou les modifications de code introduisent des bugs dues à la non-compréhension.|
 ## Principes élémentaires pour du design propre 
 
 | Principe   | Description |
