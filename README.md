@@ -105,7 +105,7 @@ Les principes GRASP mettent un focus sur les responsabilités d’un composant, 
 
 <table>
   <tr>
-    <td>
+    <td rowspan="4">
 
 ## Pourquoi du code de qualité ?
 -	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 
