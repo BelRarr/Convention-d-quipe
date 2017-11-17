@@ -20,6 +20,7 @@
 <table>
   <tr>
     <td>
+
 ```c#
 public List<int[]> getThem(List<int[]> theList){
   List<int[]> list1 = new ArrayList<int[]>();
@@ -29,8 +30,10 @@ public List<int[]> getThem(List<int[]> theList){
   return list1;
 }
 ```
+
       </td>
       <td>
+      
 ```c#
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   List<Cell> flaggedCells = new ArrayList<Cell>();
@@ -40,13 +43,16 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return flaggedCells;
 }
 ```
+
         </td>
         <td>
+        
 ```c#
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return gameBoard.Where(cell => cell.isFlagged());
 }
 ```
+
           </td>
         <tr>
       </table>    
