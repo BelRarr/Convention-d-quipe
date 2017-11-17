@@ -15,10 +15,10 @@
 |:----------|:----------|
 |	Un marécage où on se perd | Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau !
 |	Aussi loin qu’on avance à la recherche d’un indice, tout ce que l’on voit c’est du code sans signification| 
-|	Du code sans structure | |
-|	Du code dupliqué ! Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein |
+|	Du code sans structure | Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein |
+|	Du code dupliqué | Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry |
 |	Un patchwork 1000 fois reprisé
-|	Complexité inutile | Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry|
+|	Complexité inutile | |
 |	Structures de données mal adaptées au besoin
 |	Commentaires inappropriés
 
