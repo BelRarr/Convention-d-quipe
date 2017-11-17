@@ -47,8 +47,8 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
       flaggedCells.Add(cell);
   return flaggedCells;
 }
-```c#
 ```
+```c#
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return gameBoard.Where(cell => cell.isFlagged());
 }
