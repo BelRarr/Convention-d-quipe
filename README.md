@@ -10,22 +10,6 @@
 
 
 
-| Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute |
-|:----------|
-| ![WTF](./img/WTF.jpg) |
-| * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? » |
-
-|  Qu’est-ce que du code sale ? |
-|:----------|
-| Un marécage où on se perd |
-| Aussi loin qu’on avance à la recherche d’un indice, tout ce que l’on voit c’est du code sans signification |
-| Du code sans structure |
-|	Du code dupliqué |
-|	Un patchwork 1000 fois reprisé |
-|	Complexité inutile |
-|	Structures de données mal adaptées au besoin |
-|	Commentaires inappropriés |
-
 ## Qu’est-ce que du code propre ?
 -	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
 -	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
@@ -67,20 +51,15 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 ## La règle du Boy Scout
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
 ## Qu’est-ce que du design sale ?
-### Rigide
-- Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.
-### Fragile
-- Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.
-### Immobile
-- Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle…
-### Visceux
-- Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? 
-### Inutilement Complexe
-- La conception contient des éléments non utiles, souvent dans le but d’éviter les autres problèmes de design (abstractions non utiles par anticipation).
-### Contient de la duplication inutile
-- Ici, on est dans la POCC (Programmation Orienté Copier-Coller). De l’abstraction ou de la composition aurait dû être faite. 
-### Opaque
-- Le code est difficile à comprendre. Beaucoup de temps est investi en « reverse engineering » pour le comprendre et/ou les modifications de code introduisent des bugs dues à la non-compréhension.
+| Nom   | Description |
+|:----------|:----------|
+| Rigide | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
+| Fragile | Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.|
+| Immobile | Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle… |
+| Visceux | Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? |
+| Inutilement Complexe | La conception contient des éléments non utiles, souvent dans le but d’éviter les autres problèmes de design (abstractions non utiles par anticipation). |
+| Contient de la duplication inutile | Ici, on est dans la POCC (Programmation Orienté Copier-Coller). De l’abstraction ou de la composition aurait dû être faite.| 
+| Opaque | Le code est difficile à comprendre. Beaucoup de temps est investi en « reverse engineering » pour le comprendre et/ou les modifications de code introduisent des bugs dues à la non-compréhension.|
 ## Principes élémentaires pour du design propre 
 ### Garde ça stupidement simple ! (KISS)
 -	Toute complexité non indispensable devrait être évitée. 
