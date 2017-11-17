@@ -82,4 +82,10 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ne vous répétez pas (DRY) | Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.|
 
 
+## Principes plus avancés de design propre (Jedi)
+| Principe   | Description |
+|:----------|:----------|
+| Programmation Orienté Objet (POO) | 2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. <ul><li>Abstraction : « Des objets se comportent presque pareil »</li><li>Composition : Des tâches similaires sont déléguées à un objet fils (ex : logger, publisher).</li></ul> |
+| Principes SOLID | Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO. |
+| Principes GRASP | Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ». |
 
