@@ -17,6 +17,9 @@
 -	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
 -	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
 - Qu’est ce qui est le plus facile à lire ?
+<table>
+  <tr>
+    <td>
 ```c#
 public List<int[]> getThem(List<int[]> theList){
   List<int[]> list1 = new ArrayList<int[]>();
@@ -26,6 +29,8 @@ public List<int[]> getThem(List<int[]> theList){
   return list1;
 }
 ```
+      </td>
+      <td>
 ```c#
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   List<Cell> flaggedCells = new ArrayList<Cell>();
@@ -35,11 +40,14 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return flaggedCells;
 }
 ```
+        </td>
+        <td>
 ```c#
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return gameBoard.Where(cell => cell.isFlagged());
 }
 ```
+          </td>
 | Nom   | Description |
 |:----------|:----------|
 | Lisible | Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents. |
