@@ -15,9 +15,9 @@
 
 
 ## Qu’est-ce que du code propre ?
--	![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
--	![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
--	![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
+-	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
+-	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
+-	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
 
 | Principe   | Description |
 |:----------|:----------|
