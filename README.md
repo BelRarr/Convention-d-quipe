@@ -2,13 +2,12 @@
 
 ## La règle du Boy Scout
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
-
+- Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée
 | Pourquoi du code de qualité ?   | Le WTFs/Minute pour mesurer de la qualité du code |
 |:----------|:----------|
 | ![productivity](./img/productivity.jpg) | ![WTF](./img/WTF.jpg) |
 |	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 | * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? |
 |	Les conséquences du code sale se manifestent progressivement |	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
-|	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
 
 ## Qu’est-ce que du code propre ?
 | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Qu’est-ce que du code sale ?   | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Qu’est-ce que du code propre ? |
