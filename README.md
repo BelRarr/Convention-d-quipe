@@ -64,14 +64,12 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 
 | Principe   | Description |
 |:----------|:----------|
-| Garde ça stupidement simple ! (KISS) | -	Toute complexité non indispensable devrait être évitée. |
-| | -	Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.|
+| Garde ça stupidement simple! (KISS) | Toute complexité non indispensable devrait être évitée. |
+| | Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.|
+| | Notre ennemi numéro 1 en informatique : la complexité !|
+| Vous n’en aurez pas besoin! (YAGNI) | Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.|
+| Ne vous répétez pas (DRY) | Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.|
 
--	Notre ennemi numéro 1 en informatique : la complexité !
-### Vous n’en aurez pas besoin ! (YAGNI)
-- Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.
-### Ne vous répétez pas (DRY)
-- Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.
 ## Principes plus avancés de design propre (Jedi)
 ### Programmation Orienté Objet (POO)
 2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. 
