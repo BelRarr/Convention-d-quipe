@@ -64,7 +64,7 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 ## Qu’est-ce que du design sale ?
 | Principe   | Description |
 |:----------|:----------|
-| Rigide | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
+| <span style="color:red"><em>Rigide</em></span> | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
 | Fragile | Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.|
 | Immobile | Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle… |
 | Visceux | Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? |
