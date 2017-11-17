@@ -97,7 +97,7 @@ Les principes SOLID nous aident à exploiter la POO et nous guide vers une archi
 ### Principes GRASP
 Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ».
 
-# Lean Canvas
+# Conventions d'équipe
 
 
 <table>
@@ -213,3 +213,9 @@ Les principes GRASP mettent un focus sur les responsabilités d’un composant, 
   </tr>
  
 </table>
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| ## Pourquoi du code de qualité ? |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
