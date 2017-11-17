@@ -1,4 +1,6 @@
-# Pourquoi du code de qualité ?
+# Conventions d'équipe
+
+## Pourquoi du code de qualité ?
 -	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 
 -	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire 
 -	Les conséquences du code sale se manifestent progressivement 
@@ -6,9 +8,9 @@
 ![productivity](./img/productivity.jpg)
 
 
-## Overview
-
-TODO - Add img
+## Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute
+![WTF](./img/WTF.jpg)
+* WTF : Acronyme anglais pour « C’est quoi ce bazard !!? »
 
 ## Agenda of this lab
 
