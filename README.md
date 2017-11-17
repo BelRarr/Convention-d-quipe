@@ -30,6 +30,7 @@ tout ce que l’on voit c’est du code sans signification
 ### Lisible
 Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents.
 Qu’est ce qui est le plus facile à lire ?
+```c#
 public List<int[]> getThem(List<int[]> theList){
   List<int[]> list1 = new ArrayList<int[]>();
   foreach (int[] x in theList)
@@ -37,6 +38,8 @@ public List<int[]> getThem(List<int[]> theList){
        list1.Add(x);
   return list1;
 }
+```
+```c#
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   List<Cell> flaggedCells = new ArrayList<Cell>();
   foreach (Cell cell in gameBoard)
@@ -44,9 +47,12 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
       flaggedCells.Add(cell);
   return flaggedCells;
 }
+```c#
+```
 public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return gameBoard.Where(cell => cell.isFlagged());
 }
+```
 ### Élégant
 Assez simple et direct pour ne pas laisser de place aux bugs.
 ### Facile à modifier
