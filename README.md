@@ -1,5 +1,5 @@
 # Pourquoi du code de qualité ?
-![productivity](./imgs/productivity.jpg)
+![productivity](./img/productivity.jpg)
 -	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 
 -	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire 
 -	Les conséquences du code sale se manifestent progressivement 
