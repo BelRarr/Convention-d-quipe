@@ -48,6 +48,9 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 }
 ```
           </td>
+        <tr>
+      </table>    
+          
 | Nom   | Description |
 |:----------|:----------|
 | Lisible | Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents. |
