@@ -64,7 +64,7 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 ## Qu’est-ce que du design sale ?
 | Principe   | Description |
 |:----------|:----------|
-| <p><span style="color:red"><em>Rigide</em></span></p> | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
+| *Rigide* | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
 | Fragile | Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.|
 | Immobile | Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle… |
 | Visceux | Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? |
@@ -79,11 +79,5 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 | Vous n’en aurez pas besoin! (YAGNI) | Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.|
 | Ne vous répétez pas (DRY) | Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.|
 
-## Principes plus avancés de design propre (Jedi)
-| Principe   | Description |
-|:----------|:----------|
-| Programmation Orienté Objet (POO) | 2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. <ul><li>Abstraction : « Des objets se comportent presque pareil »</li><li>Composition : Des tâches similaires sont déléguées à un objet fils (ex : logger, publisher).</li></ul> |
-| Principes SOLID | Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO. |
-| Principes GRASP | Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ». |
 
 
