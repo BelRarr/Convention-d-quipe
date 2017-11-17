@@ -1,7 +1,5 @@
 # Conventions d'équipe
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+
 ## La règle du Boy Scout
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
 
@@ -12,9 +10,18 @@
 |	Les conséquences du code sale se manifestent progressivement |	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
 |	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
 
-
-
 ## Qu’est-ce que du code propre ?
+| Qu’est-ce que du code sale ?   | Qu’est-ce que du code propre ? |
+|:----------|:----------|
+|	Un marécage où on se perd | Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau !
+|	Aussi loin qu’on avance à la recherche d’un indice, tout ce que l’on voit c’est du code sans signification| 
+|	Du code sans structure | |
+|	Du code dupliqué ! Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein |
+|	Un patchwork 1000 fois reprisé
+|	Complexité inutile | Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry|
+|	Structures de données mal adaptées au besoin
+|	Commentaires inappropriés
+
 -	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
 -	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
 -	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
