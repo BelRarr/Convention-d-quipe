@@ -16,8 +16,6 @@
 -	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
 -	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
 -	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
-### Lisible
-- Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents.
 - Qu’est ce qui est le plus facile à lire ?
 ```c#
 public List<int[]> getThem(List<int[]> theList){
@@ -42,14 +40,13 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
   return gameBoard.Where(cell => cell.isFlagged());
 }
 ```
-### Élégant
-- Assez simple et direct pour ne pas laisser de place aux bugs.
-### Facile à modifier
-- Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.
-### Écrit avec soin
-- Aucun problème évident ne saute aux yeux.
-### Sans surprise
-- Le corps des méthodes est ce que l’on avait deviné
+| Nom   | Description |
+|:----------|:----------|
+| Lisible | Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents. |
+| Élégant | Assez simple et direct pour ne pas laisser de place aux bugs.|
+| Facile à modifier | Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.|
+| Écrit avec soin | Aucun problème évident ne saute aux yeux.|
+| Sans surprise | Le corps des méthodes est ce que l’on avait deviné.|
 
 ## Qu’est-ce que du design sale ?
 | Nom   | Description |
