@@ -105,7 +105,8 @@ Les principes GRASP mettent un focus sur les responsabilités d’un composant, 
 
 <table>
   <tr>
-    <td rowspan="4">
+    <td>
+      <div>
 
 ## Pourquoi du code de qualité ?
 -	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 
@@ -118,8 +119,9 @@ Les principes GRASP mettent un focus sur les responsabilités d’un composant, 
 ![WTF](./img/WTF.jpg)
 * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? »
 
+      </div>
     </td>
-    <td>
+  <td>
       
 ## Qu’est-ce que du code sale ?
 -	Un marécage où on se perd
