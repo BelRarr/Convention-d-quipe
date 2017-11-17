@@ -3,11 +3,12 @@
 
 | Pourquoi du code de qualité ?   | Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute |
 |:----------|:----------|
-|	Au fur et à mesure que le désordre augmente, la productivité tend vers 0  | ![WTF](./img/WTF.jpg) |
+| ![productivity](./img/productivity.jpg) | ![WTF](./img/WTF.jpg) |
+|	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 | * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? » |
 |	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
 |	Les conséquences du code sale se manifestent progressivement |
 |	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
-| ![productivity](./img/productivity.jpg) | * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? » |
+|  
 
 
 | Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute |
