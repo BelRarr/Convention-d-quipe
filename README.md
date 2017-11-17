@@ -28,8 +28,8 @@ tout ce que l’on voit c’est du code sans signification
 -	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
 -	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
 ### Lisible
-Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents.
-Qu’est ce qui est le plus facile à lire ?
+- Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents.
+- Qu’est ce qui est le plus facile à lire ?
 ```c#
 public List<int[]> getThem(List<int[]> theList){
   List<int[]> list1 = new ArrayList<int[]>();
@@ -54,13 +54,13 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 }
 ```
 ### Élégant
-Assez simple et direct pour ne pas laisser de place aux bugs.
+- Assez simple et direct pour ne pas laisser de place aux bugs.
 ### Facile à modifier
-Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.
+- Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.
 ### Écrit avec soin
-Aucun problème évident ne saute aux yeux.
+- Aucun problème évident ne saute aux yeux.
 ### Sans surprise
-Le corps des méthodes est ce que l’on avait deviné
+- Le corps des méthodes est ce que l’on avait deviné
 
 # Lean Canvas
 
