@@ -1,7 +1,7 @@
 # Conventions d'équipe
 
-## Pourquoi du code de qualité ?
-| Tables   | 
+
+| Pourquoi du code de qualité ?   | 
 |:----------|
 |	Au fur et à mesure que le désordre augmente, la productivité tend vers 0  |
 |	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
@@ -9,17 +9,11 @@
 |	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
 | ![productivity](./img/productivity.jpg) |
 
-## Pourquoi du code de qualité ?
-|	Au fur et à mesure que le désordre augmente, la productivité tend vers 0  |
-|	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
-|	Les conséquences du code sale se manifestent progressivement |
-|	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
-| ![productivity](./img/productivity.jpg) |
 
-
-## Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute
-![WTF](./img/WTF.jpg)
-* WTF : Acronyme anglais pour « C’est quoi ce bazard !!? »
+| Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute |
+|:----------|
+| ![WTF](./img/WTF.jpg) |
+| * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? » |
 
 ## Qu’est-ce que du code sale ?
 -	Un marécage où on se perd
