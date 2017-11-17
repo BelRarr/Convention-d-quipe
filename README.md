@@ -21,11 +21,11 @@
 
 | Principe   | Description |
 |:----------|:----------|
-| Lisible | Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents. |
-| Élégant | Assez simple et direct pour ne pas laisser de place aux bugs.|
-| Facile à modifier | Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.|
-| Écrit avec soin | Aucun problème évident ne saute aux yeux.|
-| Sans surprise | Le corps des méthodes est ce que l’on avait deviné.|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Lisible | Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents. |
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Élégant | Assez simple et direct pour ne pas laisser de place aux bugs.|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Facile à modifier | Peut être modifié par un autre que son auteur, utilise un nommage explicite et expressif.|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Écrit avec soin | Aucun problème évident ne saute aux yeux.|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Sans surprise | Le corps des méthodes est ce que l’on avait deviné.|
 
 - Qu’est ce qui est le plus facile à lire ?
 <table>
@@ -77,9 +77,9 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 
 | Principe   | Description |
 |:----------|:----------|
-| Garde ça stupidement simple! (KISS) | <ul><li>Toute complexité non indispensable devrait être évitée.</li><li>Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.</li><li>Notre ennemi numéro 1 en informatique : la complexité !</li></ul>|
-| Vous n’en aurez pas besoin! (YAGNI) | Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.|
-| Ne vous répétez pas (DRY) | Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Garde ça stupidement simple! (KISS) | <ul><li>Toute complexité non indispensable devrait être évitée.</li><li>Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.</li><li>Notre ennemi numéro 1 en informatique : la complexité !</li></ul>|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Vous n’en aurez pas besoin! (YAGNI) | Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.|
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ne vous répétez pas (DRY) | Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.|
 
 
 
