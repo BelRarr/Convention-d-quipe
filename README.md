@@ -4,7 +4,7 @@
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
 - Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée
 
-| Pourquoi du code de qualité ?   | Le WTFs/Minute pour mesurer de la qualité du code |
+| Pourquoi du code de qualité ?   | Le WTFs/Minute pour mesurer la qualité du code |
 |:----------|:----------|
 | ![productivity](./img/productivity.jpg) | ![WTF](./img/WTF.jpg) |
 |	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 | * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? |
