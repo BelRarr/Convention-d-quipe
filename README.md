@@ -15,16 +15,16 @@
 | ![WTF](./img/WTF.jpg) |
 | * WTF : Acronyme anglais pour « C’est quoi ce bazard !!? » |
 
-## Qu’est-ce que du code sale ?
--	Un marécage où on se perd
--	Aussi loin qu’on avance à la recherche d’un indice, 
-tout ce que l’on voit c’est du code sans signification
--	Du code sans structure
--	Du code dupliqué
--	Un patchwork 1000 fois reprisé
--	Complexité inutile
--	Structures de données mal adaptées au besoin
--	Commentaires inappropriés
+|  Qu’est-ce que du code sale ? |
+|:----------|
+| Un marécage où on se perd |
+| Aussi loin qu’on avance à la recherche d’un indice, tout ce que l’on voit c’est du code sans signification |
+| Du code sans structure |
+|	Du code dupliqué |
+|	Un patchwork 1000 fois reprisé |
+|	Complexité inutile |
+|	Structures de données mal adaptées au besoin |
+|	Commentaires inappropriés |
 
 ## Qu’est-ce que du code propre ?
 -	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
