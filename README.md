@@ -17,7 +17,7 @@
 -	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
 -	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
 
-| Nom   | Description |
+| Principe   | Description |
 |:----------|:----------|
 | Lisible | Se lit comme une phrase. Les abstractions sont nettes, les chemins d’exécution évidents. |
 | Élégant | Assez simple et direct pour ne pas laisser de place aux bugs.|
@@ -51,7 +51,7 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 ```
 
 ## Qu’est-ce que du design sale ?
-| Nom   | Description |
+| Principe   | Description |
 |:----------|:----------|
 | Rigide | Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.|
 | Fragile | Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.|
@@ -61,9 +61,12 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 | Contient de la duplication inutile | Ici, on est dans la POCC (Programmation Orienté Copier-Coller). De l’abstraction ou de la composition aurait dû être faite.| 
 | Opaque | Le code est difficile à comprendre. Beaucoup de temps est investi en « reverse engineering » pour le comprendre et/ou les modifications de code introduisent des bugs dues à la non-compréhension.|
 ## Principes élémentaires pour du design propre 
-### Garde ça stupidement simple ! (KISS)
--	Toute complexité non indispensable devrait être évitée. 
--	Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.
+
+| Principe   | Description |
+|:----------|:----------|
+| Garde ça stupidement simple ! (KISS) | -	Toute complexité non indispensable devrait être évitée. |
+| | -	Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.|
+
 -	Notre ennemi numéro 1 en informatique : la complexité !
 ### Vous n’en aurez pas besoin ! (YAGNI)
 - Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.
