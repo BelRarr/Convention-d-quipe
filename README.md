@@ -26,7 +26,10 @@
 | Sans surprise | Le corps des méthodes est ce que l’on avait deviné.|
 
 - Qu’est ce qui est le plus facile à lire ?
-```c#
+<table>
+<tr>
+<td>
+   <pre lang="csharp">
 public List<int[]> getThem(List<int[]> theList){
   List<int[]> list1 = new ArrayList<int[]>();
   foreach (int[] x in theList)
@@ -34,32 +37,7 @@ public List<int[]> getThem(List<int[]> theList){
        list1.Add(x);
   return list1;
 }
-```
-```c#
-public List<Cell> getFlaggedCells(List<Cell> gameBoard){
-  List<Cell> flaggedCells = new ArrayList<Cell>();
-  foreach (Cell cell in gameBoard)
-    if (cell.isFlagged())
-      flaggedCells.Add(cell);
-  return flaggedCells;
-}
-```
-```c#
-public List<Cell> getFlaggedCells(List<Cell> gameBoard){
-  return gameBoard.Where(cell => cell.isFlagged());
-}
-```
-<table>
-<tr>
-<td>
-   <pre lang="csharp">
-public List<Cell> getFlaggedCells(List<Cell> gameBoard){
-  List<Cell> flaggedCells = new ArrayList<Cell>();
-  foreach (Cell cell in gameBoard)
-    if (cell.isFlagged())
-      flaggedCells.Add(cell);
-  return flaggedCells;
-}
+
    </pre>
 </td>
 <td>
