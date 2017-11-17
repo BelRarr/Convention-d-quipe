@@ -99,11 +99,10 @@ Les principes GRASP mettent un focus sur les responsabilités d’un composant, 
 
 # Lean Canvas
 
-The Lean Canvas is a version of the Business Model Canvas adapted by Ash Maurya specifically for startups. You can read more about it [here](http://leanstack.com/why-lean-canvas/).
 
 <table>
   <tr>
-    <td rowspan="2">
+    <td>
 
 ## Pourquoi du code de qualité ?
 -	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 
@@ -172,25 +171,45 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
       
     </td>
-    <td rowspan="2" colspan="2">
-      <b>Unique Value Proposition</b>
-      <p>Single, clear, <br>
-      compelling message <br>
-      that states why you <br>
-      are different and <br>
-      worth paying <br>
-      attention</p>
-      <br><br><br><br><br>
-    </td>
+
     <td>
-      <b>Unfair Advantage</b>
-      <p>Can't be easily <br>
-      copied or bought</p>
+  
+## Qu’est-ce que du design sale ?
+### Rigide
+- Les changements simples doivent être propagés dans beaucoup de modules dépendants ; ce qui rend les changements simples fastidieux.
+### Fragile
+- Un petit changement cause beaucoup d’effets de bords. Par peur de modifier et casser, on patche ce qui entraîne de nouveaux effets de bords.
+### Immobile
+- Réutiliser du code nécessite trop d’effort et de risque à cause des dépendances,  alors on copie-colle…
+### Visceux
+- Lors d’un changement à effectuer, nous sommes face au dilemme suivant : devons-nous préserver l’architecture en place et perdre du temps ou prendre des raccourcis et gagner du temps ? 
+### Inutilement Complexe
+- La conception contient des éléments non utiles, souvent dans le but d’éviter les autres problèmes de design (abstractions non utiles par anticipation).
+### Contient de la duplication inutile
+- Ici, on est dans la POCC (Programmation Orienté Copier-Coller). De l’abstraction ou de la composition aurait dû être faite. 
+### Opaque
+- Le code est difficile à comprendre. Beaucoup de temps est investi en « reverse engineering » pour le comprendre et/ou les modifications de code introduisent des bugs dues à la non-compréhension.
+## Principes élémentaires pour du design propre 
+### Garde ça stupidement simple ! (KISS)
+-	Toute complexité non indispensable devrait être évitée. 
+-	Ne pas optimiser quoi que ce soit avant de maîtriser totalement une version simple de ce que l'on crée.
+-	Notre ennemi numéro 1 en informatique : la complexité !
+### Vous n’en aurez pas besoin ! (YAGNI)
+- Mettez toujours en œuvre les choses quand vous en avez effectivement besoin, pas lorsque vous prévoyez simplement que vous en aurez besoin.
+### Ne vous répétez pas (DRY)
+- Toute connaissance doit avoir une représentation unique, non-ambiguë, faisant autorité.
+## Principes plus avancés de design propre (Jedi)
+### Programmation Orienté Objet (POO)
+2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. 
+Abstraction : « Des objets se comportent presque pareil »
+Composition : Des tâches similaires sont déléguées à un objet fils (ex : logger, publisher). 
+### Principes SOLID
+Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO.
+### Principes GRASP
+Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ».
+  
     </td>
-    <td rowspan="2">
-      <b>Customer Segments</b>
-      <p>Target customers</p>
-    </td>
+   
   </tr>
  
 </table>
