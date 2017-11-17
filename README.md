@@ -15,9 +15,9 @@
 
 
 ## Qu’est-ce que du code propre ?
--	Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
--	Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
--	Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
+-	![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. Nicolas Boileau 
+-	![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Si vous n'êtes pas capable d'expliquer quelque chose à un enfant de 6 ans, c'est que vous ne le comprenez pas vous-même. Einstein
+-	![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retirer. St Exupéry
 
 | Principe   | Description |
 |:----------|:----------|
@@ -85,7 +85,7 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 ## Principes plus avancés de design propre (Jedi)
 | Principe   | Description |
 |:----------|:----------|
-| Programmation Orienté Objet (POO) | 2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. <ul><li>Abstraction : « Des objets se comportent presque pareil »</li><li>Composition : Des tâches similaires sont déléguées à un objet fils (ex : logger, publisher).</li></ul> |
-| Principes SOLID | Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO. |
-| Principes GRASP | Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ». |
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Programmation Orienté Objet (POO) | 2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. <ul><li>Abstraction : « Des objets se comportent presque pareil »</li><li>Composition : Des tâches similaires sont déléguées à un objet fils (ex : logger, publisher).</li></ul> |
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Principes SOLID | Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO. |
+| ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Principes GRASP | Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ». |
 
