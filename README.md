@@ -1,11 +1,16 @@
 # Conventions d'équipe
 
+| Pourquoi du code de qualité ?  |
+|----------|
+| col 2 is | 
+| col 3 is | 
+
 ## Pourquoi du code de qualité ?
--	Au fur et à mesure que le désordre augmente, la productivité tend vers 0 
--	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire 
--	Les conséquences du code sale se manifestent progressivement 
--	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée
-![productivity](./img/productivity.jpg)
+|	Au fur et à mesure que le désordre augmente, la productivité tend vers 0  |
+|	Un développeur passe 10 fois plus de temps à lire du code qu’à en écrire |
+|	Les conséquences du code sale se manifestent progressivement |
+|	Notre ennemi numéro 1 en informatique : la complexité inutilement accumulée |
+| ![productivity](./img/productivity.jpg) |
 
 
 ## Meilleure métrique pour mesurer de la qualité du code : WTFs/Minute
