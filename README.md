@@ -86,12 +86,4 @@ public List<Cell> getFlaggedCells(List<Cell> gameBoard){
 | Principes SOLID | Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO. |
 | Principes GRASP | Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ». |
 
-### Programmation Orienté Objet (POO)
-2 outils fournis par la POO pour attaquer la complexité : la composition et l’abstraction. L’abstraction est souvent surutilisée au détriment de la composition. 
-Abstraction : « Des objets se comportent presque pareil »
-Composition : Des tâches similaires sont déléguées à un objet fils (ex : logger, publisher). 
-### Principes SOLID
-Les principes SOLID nous aident à exploiter la POO et nous guide vers une architecture modulaire : Le code s’assemble comme des blocs LEGO.
-### Principes GRASP
-Les principes GRASP mettent un focus sur les responsabilités d’un composant, qu’est-ce qui doit être mis où. Le résumé serait « Chaque chose a sa place et chaque place a sa chose ».
 
