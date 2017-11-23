@@ -1,1 +1,1 @@
-[Principes Clean Code de l'équipe](./PrincipesEquipe.md)
+[Conventions d'équipe pour un code propre](./ConventionPourCodePropre.md)
