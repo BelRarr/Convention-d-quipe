@@ -1,4 +1,4 @@
-# Principes d'équipe
+# Conventions d'équipe pour un code propre
 
 ## La règle du Boy Scout
 - Laisser le code source plus propre que ce que vous l’avez trouvé.
