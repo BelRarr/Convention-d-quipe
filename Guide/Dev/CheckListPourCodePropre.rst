@@ -1,7 +1,11 @@
-.. image:: /img/red.png
+The |biohazard| symbol must be used on containers used to dispose of medical waste.
+.. |red| image:: /img/red.png
+.. |green| image:: /img/green.png
+
+
 
 +--------------------------------+------------------------------------------+--------------------------------------------------------+
-|        Principe                |  ![#f03c15]() Bien                       |  Pas bien                                              |
+|        Principe                |  |green| Bien                            | |red| Pas bien                                         |
 +--------------------------------+------------------------------------------+--------------------------------------------------------+
 | - [ ]  Des noms prononçables   | .. code-block:: csharp                   | - 1                                                    |
 | - [ ]                          |                                          | - 1                                                    |
