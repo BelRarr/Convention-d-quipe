@@ -4,7 +4,7 @@
 .. |GREEN| image:: /img/green.png
    :height: 11
    :width: 11
-.. |CHECK| image:: /img/Check.jpg
+.. |CHECK| image:: /img/Check.png
    :height: 11
    :width: 11
 
