@@ -8,7 +8,7 @@
 
 
 ```python
-    import this
+import this
 ```
 
 .. code-block:: python
