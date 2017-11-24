@@ -27,7 +27,8 @@ class Customer{
 </td>
 </tr>
 </table>
-  +-------+----------+------+
+
++-------+----------+------+
 | Table Headings   | Here |
 +-------+----------+------+
 | Sub   | Headings | Too  |
