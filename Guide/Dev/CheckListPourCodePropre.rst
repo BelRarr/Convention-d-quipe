@@ -1,5 +1,4 @@
 .. role:: red
-.. role:: green
 
 An example of using :red:`interpreted text`
 
