@@ -14,7 +14,6 @@ import this
 Essentially, this is a simple wrapper around pexpect_. Standard usage:
 
 .. code:: python
-
     import time
 
     from clijockey.traits import TraitTable, CUnicode, CUnicodeRegex
