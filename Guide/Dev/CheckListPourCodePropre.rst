@@ -4,7 +4,10 @@
 .. |GREEN| image:: /img/green.png
    :height: 11
    :width: 11
-.. |CHECK| image:: /img/Check.jpg :height: 11 :width: 11
+.. |CHECK| image:: /img/Check.jpg
+   :height: 11
+   :width: 11
+
 
 +------------------------------------+------------------------------------------+--------------------------------------------------------+
 |         |  Principe                |  |GREEN| Bien                            | |RED| Pas bien                                         |
