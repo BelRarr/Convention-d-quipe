@@ -1,11 +1,12 @@
-The |red| symbol must be used on containers used to dispose of medical waste.
-.. |red| image:: /img/red.png
-.. |green| image:: /img/green.png
-
-
+.. |RED| image:: /img/red.png
+   :height: 11
+   :width: 11
+.. |GREEN| image:: /img/green.png
+   :height: 11
+   :width: 11
 
 +--------------------------------+------------------------------------------+--------------------------------------------------------+
-|        Principe                |  |green| Bien                            | |red| Pas bien                                         |
+|        Principe                |  |GREEN| Bien                            | |RED| Pas bien                                         |
 +--------------------------------+------------------------------------------+--------------------------------------------------------+
 | - [ ]  Des noms prononçables   | .. code-block:: csharp                   | - 1                                                    |
 | - [ ]                          |                                          | - 1                                                    |
