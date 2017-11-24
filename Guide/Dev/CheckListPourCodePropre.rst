@@ -1,4 +1,4 @@
-The |biohazard| symbol must be used on containers used to dispose of medical waste.
+The |red| symbol must be used on containers used to dispose of medical waste.
 .. |red| image:: /img/red.png
 .. |green| image:: /img/green.png
 
