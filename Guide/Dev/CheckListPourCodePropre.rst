@@ -25,7 +25,3 @@ Essentially, this is a simple wrapper around pexpect_. Standard usage:
 
 
     conn.logout()
-
-
-Installation
-------------
