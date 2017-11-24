@@ -42,3 +42,13 @@
 |         |                          |     };                                     |     };                                             |
 |         |                          |                                            |                                                    |
 +---------+--------------------------+--------------------------------------------+----------------------------------------------------+
+|         |                          | .. code-block:: csharp                     | .. code-block:: csharp                             |
+|         |                          |                                            |                                                    |
+| |CHECK| | Mettre du contexte       |     class DtaRcrd102{                      |     class Customer{                                |
+|         | pertinent                |       private DateTime genymdhms;          |       private DateTime generationTimestamp;        |
+|         |                          |       private DateTime modymdhms;          |       private DateTime modificationTimestamp;      |
+|         |                          |       private String pszqint = "102";      |       private String recordId = "102";             |
+|         |                          |       /* ... */                            |        /* ... */                                   |
+|         |                          |     };                                     |     };                                             |
+|         |                          |                                            |                                                    |
++---------+--------------------------+--------------------------------------------+----------------------------------------------------+
