@@ -1,6 +1,6 @@
 
 - [ ] Des noms prononçables  
-> Qu’est ce qui est plus facile à lire ?
+Qu’est ce qui est plus facile à lire ?
 <table>
 <tr>
 <td>
