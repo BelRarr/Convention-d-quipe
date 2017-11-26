@@ -36,17 +36,17 @@
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
-| |CHECK| | Éviter les effets de    |   public Boolean checkPassword(        |     class Customer{                                     |
-|         | bords.                  |     String userName, String password){ |       private DateTime generationTimestamp;             |
-|         | Pas bien à cause de     |      User user =                       |       private DateTime modificationTimestamp;           |
-|         | Session.initialize      |       UserGateway.findByName(userName);|       private String recordId = "102";                  |
-|         |                         |      if (user != null) {               |        /* ... */                                        |
-|         |                         |         /* ... */                      |                                                         |
-|         |                         |         Session.initialize();          |                                                         |
-|         |                         |         return true;                   |                                                         |
-|         |                         |      };                                |                                                         |
-|         |                         |      return false;                     |                                                         |
-|         |                         |   }                                    |     };                                                  |
+| |CHECK| | Éviter les effets de    |   public Boolean checkPassword(        |    public Boolean checkPassword(                        |
+|         | bords.                  |     String userName, String password){ |      String userName, String password){                 |
+|         | Pas bien à cause de     |      User user =                       |       User user =                                       |
+|         | Session.initialize      |       UserGateway.findByName(userName);|        UserGateway.findByName(userName);                |
+|         |                         |      if (user != null) {               |       if (user != null) {                               |
+|         |                         |         /* ... */                      |          /* ... */                                      |
+|         |                         |         Session.initialize();          |          return true;                                   |
+|         |                         |         return true;                   |      };                                                 |
+|         |                         |      };                                |      return false;                                      |
+|         |                         |      return false;                     |    }                                                    |
+|         |                         |   }                                    |                                                         |
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
