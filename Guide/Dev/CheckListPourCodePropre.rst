@@ -37,8 +37,8 @@
 |                          | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |                          |                                        |                                                         |
 | - Éviter les effets de   |   public Boolean checkPassword(        |    public Boolean checkPassword(                        |
-| bords. Pas bien à cause  |     String userName, String password){ |      String userName, String password){                 |
-|  de Session.initialize   |      User user =                       |       User user =                                       |
+|   bords. Pas bien à cause|     String userName, String password){ |      String userName, String password){                 |
+|   de Session.initialize  |      User user =                       |       User user =                                       |
 |                          |       UserGateway.findByName(userName);|        UserGateway.findByName(userName);                |
 |                          |      if (user != null) {               |       if (user != null) {                               |
 |                          |         /* ... */                      |          /* ... */                                      |
@@ -51,7 +51,7 @@
 |                          | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |                          |                                        |                                                         |
 | - Mettre du contexte     |  private void printGuessStatistics(    |     class Customer{                                     |
-| pertinent                |            char candidate, int count){ |       private DateTime generationTimestamp;             |
+|   pertinent              |            char candidate, int count){ |       private DateTime generationTimestamp;             |
 |                          |    String number;                      |       private DateTime modificationTimestamp;           |
 |                          |    String verb;                        |       private String recordId = "102";                  |
 |                          |    String pluralModifier;              |        /* ... */                                        |
