@@ -85,12 +85,18 @@ L'essentiel
 |                          |                                        |  }                                                            |
 +--------------------------+----------------------------------------+---------------------------------------------------------------+
 
-## Nommage
+Nommage 
+-------- 
 
-## Découpage
+Découpage 
+-------- 
 
-##	Gestion des erreurs / stabilité du code
+Gestion des erreurs / stabilité du code
+-------- 
 
-## Commentaires
+Commentaires 
+-------- 
 
-## Formatage
+Formatage 
+-------- 
+
