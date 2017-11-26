@@ -123,6 +123,15 @@ L'essentiel
 |                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Découpage              |  * Pas de « grosse classe qui fait tout ». Une classe a un rôle clair et précis.                       |
+|                          |                                                                                                        |
+|                          |  * Les méthodes ne doivent faire qu’une chose et une seule (responsabilité unique)                     |
+|                          |                                                                                                        |
+|                          |  * Si plus de 2 paramètres par méthode :                                                               |
+|                          |                                                                                                        |
+|                          |    - serait-il pertinent de déléguer le travail à un objet fils ? (se poser la question)               |
+|                          |                                                                                                        |
+|                          |    - Minimiser les boucles imbriquées et préférer la création de nouvelles fonctions                   |
+|                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Gestion des erreurs    |                                                                                                        | 
 | - stabilité du code      |                                                                                                        |
