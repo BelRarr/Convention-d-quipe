@@ -24,10 +24,10 @@
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
-| |CHECK| | Utiliser des constantes | int s = 0;                             |  int realDaysPerIdealDay = 4;                           |
-|         |                         | for (int j = 0; j < 34; j++){          |  const int WORK_DAYS_PER_WEEK = 5;                      | 
-|         |                         |   s += (t[j] * 4) / 5;                 |  int sum = 0;                                           |
-|         |                         | }                                      |  for (int j = 0; j < NUMBER_OF_TASKS; j++){             |
+| |CHECK| | Utiliser des constantes |   int s = 0;                           |  int realDaysPerIdealDay = 4;                           |
+|         |                         |   for (int j = 0; j < 34; j++){        |  const int WORK_DAYS_PER_WEEK = 5;                      | 
+|         |                         |     s += (t[j] * 4) / 5;               |  int sum = 0;                                           |
+|         |                         |   }                                    |  for (int j = 0; j < NUMBER_OF_TASKS; j++){             |
 |         |                         |                                        |    int realTaskDays = taskEstimate[j] *                 |
 |         |                         |                                        |                       realDaysPerIdealDay;              |
 |         |                         |                                        |    int realTaskWeeks = (realdays / WORK_DAYS_PER_WEEK); |
