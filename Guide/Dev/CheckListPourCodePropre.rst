@@ -105,8 +105,6 @@ L'essentiel
 |                          |    raise RpcError(response.GetStatus())|  avg = sum(vals) / len(vals)                                  |
 |                          |                                        |  return avg, vals                                             |
 +--------------------------+----------------------------------------+---------------------------------------------------------------+
-
-+--------------------------+--------------------------------------------------------------------------------------------------------+
 |  Principe                | Description                                                                                            |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Nommage                | * Classes :                                                                                            |
@@ -122,8 +120,29 @@ L'essentiel
 |                          |   - Le nom des méthodes doivent être des verbes ou des verbes phrases.                                 |
 |                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
-| - Découpage              |                                                                                                        |
-+--------------------------+--------------------------------------------------------------------------------------------------------+
+| - Découpage              |  * Pas de « grosse classe qui fait tout ». Une classe a un rôle clair et précis.                       |
+|                          |                                                                                                        |
+|                          |  * Les méthodes ne doivent faire qu’une chose et une seule (responsabilité unique)                     |
+|                          |                                                                                                        |
+|                          |  * Si plus de 2 paramètres par méthode :                                                               |
+|                          |                                                                                                        |
+|                          |    - serait-il pertinent de déléguer le travail à un objet fils ? (se poser la question)               |
+|                          |                                                                                                        |
+|                          |    - Minimiser les boucles imbriquées et préférer la création de nouvelles fonctions                   |
+|                          |                                                                                                        |
+|                          |  * Command and Query Separation (CQS)                                                                  |
+|                          |                                                                                                        |
+|                          |    - Une méthode doit soit                                                                             |
+|                          |                                                                                                        |
+|                          |    - retourner un résultat sans modifier l’état de l’objet (Requête),                                  |
+|                          |                                                                                                        |
+|                          |    - modifier l’état d’un objet sans retourner de résultat (Commande).                                 |
+|                          |                                                                                                        |
+|                          |  * Pour gérer les cas d’erreur et éviter d’utiliser « null » si un résultat n’est pas trouvé,          |
+|                          |                                                                                                        |
+|                          |    - utiliser le « Monade Result »                                                                     |
+|                          |      Result result =  obj.Execute()                                                                    |
+|                          |      Result<Employe> result = obj.GetEmployeById(id)                                                   |      +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Gestion des erreurs    |                                                                                                        | 
 | - stabilité du code      |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
@@ -131,4 +150,5 @@ L'essentiel
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
 | - Formatage              |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
+
 
