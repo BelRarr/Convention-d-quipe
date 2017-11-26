@@ -14,12 +14,12 @@
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
-| |CHECK| |  Des noms prononçables  | class DtaRcrd102{                      |  class Customer{                                        |
-|         |                         |   private DateTime genymdhms;          |    private DateTime generationTimestamp;                |
-|         |                         |   private DateTime modymdhms;          |    private DateTime modificationTimestamp;              |
-|         |                         |   private String pszqint = "102";      |    private String recordId = "102";                     |
-|         |                         |   /* ... */                            |     /* ... */                                           |
-|         |                         | };                                     |  };                                                     |
+| |CHECK| |  Des noms prononçables  |   class DtaRcrd102{                    |  class Customer{                                        |
+|         |                         |     private DateTime genymdhms;        |    private DateTime generationTimestamp;                |
+|         |                         |     private DateTime modymdhms;        |    private DateTime modificationTimestamp;              |
+|         |                         |     private String pszqint = "102";    |    private String recordId = "102";                     |
+|         |                         |     /* ... */                          |     /* ... */                                           |
+|         |                         |   };                                   |  };                                                     |
 |         |                         |                                        |                                                         |
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
