@@ -146,8 +146,8 @@ L'essentiel
 |                          |                                                                                                        |
 |                          |      .. code-block:: csharp                                                                            |
 |                          |                                                                                                        |
-|                          |        Result result =  obj.Execute()                                                                  |
-|                          |        Result<Employe> result = obj.GetEmployeById(id)                                                 |
+|                          |        Result result =  obj.Execute();                                                                 |
+|                          |        Result<Employe> result = obj.GetEmployeById(id);                                                |
 |                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Gestion des erreurs    |                                                                                                        | 
