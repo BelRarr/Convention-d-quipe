@@ -84,19 +84,40 @@ L'essentiel
 |                          |                                        |    }                                                          |
 |                          |                                        |  }                                                            |
 +--------------------------+----------------------------------------+---------------------------------------------------------------+
+|                          | .. code-block:: javascript             | .. code-block:: javascript                                    |
+|                          |                                        |                                                               |
+| - Guard clause           |  response = server.Call(request)       |  response = server.Call(request)                              |
+|                          |  if response.GetStatus() == RPC.OK:    |                                                               |
+|                          |    if response.GetAuthorizedUser():    |  if response.GetStatus() != RPC.OK:                           |
+|                          |      if response.GetEnc() == 'utf-8':  |    raise RpcError(response.GetStatus())                       |
+|                          |        if response.GetRows():          |                                                               |
+|                          |          vals = [ParseRow(r) for r in  |  if not response.GetAuthorizedUser():                         |
+|                          |                  response.GetRows()]   |    raise ValueError('wrong encoding')                         |
+|                          |          avg = sum(vals) / len(vals)   |                                                               |
+|                          |          return avg, vals              |  if response.GetEnc() != 'utf-8':                             |
+|                          |        else:                           |    raise AuthError('unauthorized')                            |
+|                          |          raise EmptyError()            |                                                               |
+|                          |      else:                             |  if not response.GetRows():                                   |
+|                          |        raise AuthError('unauthorized') |    raise EmptyError()                                         |
+|                          |    else:                               |                                                               |
+|                          |      raise ValueError('wrong encoding')|  vals = [ParseRow(r) for r in                                 |
+|                          |  else:                                 |          response.GetRows()]                                  |
+|                          |    raise RpcError(response.GetStatus())|  avg = sum(vals) / len(vals)                                  |
+|                          |                                        |  return avg, vals                                             |
++--------------------------+----------------------------------------+---------------------------------------------------------------+
 
-Nommage 
--------- 
-
-Découpage 
--------- 
-
-Gestion des erreurs / stabilité du code
--------- 
-
-Commentaires 
--------- 
-
-Formatage 
--------- 
++--------------------------+--------------------------------------------------------------------------------------------------------+
+|  Principe                | Description                                                                                            |
++--------------------------+--------------------------------------------------------------------------------------------------------+
+| - Nommage                |                                                                                                        |
++--------------------------+--------------------------------------------------------------------------------------------------------+
+| - Découpage              |                                                                                                        |
++--------------------------+--------------------------------------------------------------------------------------------------------+
+| - Gestion des erreurs    |                                                                                                        | 
+| - stabilité du code      |                                                                                                        |
++--------------------------+--------------------------------------------------------------------------------------------------------+
+| - Commentaires           |                                                                                                        |
++--------------------------+--------------------------------------------------------------------------------------------------------+ 
+| - Formatage              |                                                                                                        |
++--------------------------+--------------------------------------------------------------------------------------------------------+ 
 
