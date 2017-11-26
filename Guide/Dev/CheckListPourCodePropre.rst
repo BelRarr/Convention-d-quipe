@@ -50,11 +50,67 @@
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
-| |CHECK| | Mettre du contexte      |     class DtaRcrd102{                  |     class Customer{                                     |
-|         | pertinent               |       private DateTime genymdhms;      |       private DateTime generationTimestamp;             |
+| |CHECK| | - Mettre du contexte    |  private void printGuessStatistics(    |     class Customer{                                     |
+|         | pertinent               |            char candidate, int count){ |       private DateTime generationTimestamp;             |
 |         |                         |       private DateTime modymdhms;      |       private DateTime modificationTimestamp;           |
 |         |                         |       private String pszqint = "102";  |       private String recordId = "102";                  |
 |         |                         |       /* ... */                        |        /* ... */                                        |
 |         |                         |     };                                 |     };                                                  |
 |         |                         |                                        |                                                         |
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
+private void printGuessStatistics(char candidate, int count) {
+  String number;
+  String verb;
+  String pluralModifier;
+  if (count == 0) {
+    number = "no";
+    verb = "are";
+    pluralModifier = "s";
+  }
+  else if (count == 1) {
+    number = "1";
+    verb = "is";
+    pluralModifier = "";
+  }
+  else {
+    number = count.ToString();
+    verb = "are";
+    pluralModifier = "s";
+  }
+  String guessMessage = String.Format(
+    "There %s %s %s%s", verb, number, candidate, pluralModifier
+  );
+  Console.Write(guessMessage);
+}
+public class GuessStatisticsMessage {
+  private String number;
+  private String verb;
+  private String pluralModifier;
+  public String make(char candidate, int count) {
+    createPluralDependentMessageParts(count);
+    return String.Format(
+                    "There %s %s %s%s",
+                    verb, number, candidate, pluralModifier);
+  }
+  private void createPluralDependentMessageParts(int count) {
+    if (count == 0)        { thereAreNoLetters(); }
+    else if (count == 1)   { thereIsOneLetter();  }
+    else                   { thereAreManyLetters(count); }
+  }
+  private void thereAreManyLetters(int count) {
+    number = count.ToString();
+    verb = "are";
+    pluralModifier = "s";
+  }
+  private void thereIsOneLetter() {
+    number = "1";
+    verb = "is";
+    pluralModifier = "";
+  }
+  private void thereAreNoLetters() {
+    number = "no";
+    verb = "are";
+    pluralModifier = "s";
+  }
+}
+
