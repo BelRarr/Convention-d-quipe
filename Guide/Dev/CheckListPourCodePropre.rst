@@ -4,9 +4,12 @@
 .. |GREEN| image:: /img/green.png
    :height: 11
    :width: 11
-
-# CheckList pour du code propre
-## L'essentiel
+   
+===== 
+CheckList pour du code propre 
+===== 
+L'essentiel 
+-------- 
 
 +--------------------------+----------------------------------------+---------------------------------------------------------------+
 |  Principe                |  |RED| Pas bien                        | |GREEN| Bien                                                  |
