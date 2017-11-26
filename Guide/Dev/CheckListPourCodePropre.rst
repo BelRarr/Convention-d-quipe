@@ -36,13 +36,17 @@
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
-| |CHECK| | Éviter les effets de    |     class DtaRcrd102{                  |     class Customer{                                     |
-|         | bords.                  |       private DateTime genymdhms;      |       private DateTime generationTimestamp;             |
-|         | Pas bien à cause de     |       private DateTime modymdhms;      |       private DateTime modificationTimestamp;           |
-|         | Session.initialize      |       private String pszqint = "102";  |       private String recordId = "102";                  |
-|         |                         |       /* ... */                        |        /* ... */                                        |
-|         |                         |     };                                 |     };                                                  |
-|         |                         |                                        |                                                         |
+| |CHECK| | Éviter les effets de    |   public Boolean checkPassword(        |     class Customer{                                     |
+|         | bords.                  |     String userName, String password){ |       private DateTime generationTimestamp;             |
+|         | Pas bien à cause de     |      User user =                       |       private DateTime modificationTimestamp;           |
+|         | Session.initialize      |       UserGateway.findByName(userName);|       private String recordId = "102";                  |
+|         |                         |      if (user != null) {               |        /* ... */                                        |
+|         |                         |         /* ... */                      |                                                         |
+|         |                         |         Session.initialize();          |                                                         |
+|         |                         |         return true;                   |                                                         |
+|         |                         |      };                                |                                                         |
+|         |                         |      return false;                     |                                                         |
+|         |                         |   }                                    |     };                                                  |
 +---------+-------------------------+----------------------------------------+---------------------------------------------------------+
 |         |                         | .. code-block:: csharp                 | .. code-block:: csharp                                  |
 |         |                         |                                        |                                                         |
