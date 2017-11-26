@@ -109,12 +109,12 @@ L'essentiel
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 |  Principe                | Description                                                                                            |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
-| - Nommage                | - Classes :                                                                                            |
-|                          |   * Le nom des classes doivent être des noms ou des noms-phrases.                                      |
-|                          |   * Éviter les verbes.                                                                                 |
-|                          |   * Éviter Manager, Processor, Data, Info (Trop vague).                                                |
-|                          | - Méthodes :                                                                                           |
-|                          |   * Le nom des méthodes doivent être des verbes ou des verbes phrases.                                 |
+| - Nommage                | * Classes :                                                                                            |
+|                          |   - Le nom des classes doivent être des noms ou des noms-phrases.                                      |
+|                          |   - Éviter les verbes.                                                                                 |
+|                          |   - Éviter Manager, Processor, Data, Info (Trop vague).                                                |
+|                          | * Méthodes :                                                                                           |
+|                          |   - Le nom des méthodes doivent être des verbes ou des verbes phrases.                                 |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Découpage              |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
