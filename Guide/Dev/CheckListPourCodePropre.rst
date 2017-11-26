@@ -132,6 +132,22 @@ L'essentiel
 |                          |                                                                                                        |
 |                          |    - Minimiser les boucles imbriquées et préférer la création de nouvelles fonctions                   |
 |                          |                                                                                                        |
+|                          |  * Command and Query Separation (CQS)                                                                  |
+|                          |                                                                                                        |
+|                          |    - Une méthode doit soit                                                                             |
+|                          |                                                                                                        |
+|                          |    - retourner un résultat sans modifier l’état de l’objet (Requête),                                  |
+|                          |                                                                                                        |
+|                          |    - modifier l’état d’un objet sans retourner de résultat (Commande).                                 |
+|                          |                                                                                                        |
+|                          |  * Pour gérer les cas d’erreur et éviter d’utiliser « null » si un résultat n’est pas trouvé,          |
+|                          |                                                                                                        |
+|                          |    - utiliser le « Monade Result »                                                                     |
+|                          |      .. code-block:: csharp                                                                            |
+|                          |                                                                                                        |
+|                          |        Result result =  obj.Execute()                                                                  |
+|                          |        Result<Employe> result = obj.GetEmployeById(id)                                                 |
+|                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Gestion des erreurs    |                                                                                                        | 
 | - stabilité du code      |                                                                                                        |
