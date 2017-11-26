@@ -143,6 +143,7 @@ L'essentiel
 |                          |  * Pour gérer les cas d’erreur et éviter d’utiliser « null » si un résultat n’est pas trouvé,          |
 |                          |                                                                                                        |
 |                          |    - utiliser le « Monade Result »                                                                     |
+|                          |                                                                                                        |
 |                          |      .. code-block:: csharp                                                                            |
 |                          |                                                                                                        |
 |                          |        Result result =  obj.Execute()                                                                  |
