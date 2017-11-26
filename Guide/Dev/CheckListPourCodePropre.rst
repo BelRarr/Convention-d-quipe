@@ -4,10 +4,9 @@
 .. |GREEN| image:: /img/green.png
    :height: 11
    :width: 11
-.. |CHECK| image:: /img/Check-icon4.png
-   :height: 11
-   :width: 11
 
+# CheckList pour du code propre
+## L'essentiel
 
 +--------------------------+----------------------------------------+---------------------------------------------------------------+
 |  Principe                |  |RED| Pas bien                        | |GREEN| Bien                                                  |
@@ -83,3 +82,12 @@
 |                          |                                        |  }                                                            |
 +--------------------------+----------------------------------------+---------------------------------------------------------------+
 
+## Nommage
+
+## Découpage
+
+##	Gestion des erreurs / stabilité du code
+
+## Commentaires
+
+## Formatage
