@@ -7,7 +7,7 @@
 -	![#c5f015](/img/green.png) Le code soumis doit être petit, incrémental et complet
 
 #	Pour une revue de code efficace :
-- ![#c5f015](/img/red.png) Pas plus de 6 heures par semaines
+- ![#c5f015](/img/red.png) Pas plus de 6 heures par semaine
 - ![#c5f015](/img/green.png) Focus sur le scope : 
     - Y a-t-il des bugs ? Des cas non gérés ? Des vérifications non-faites ?
     - Le code est-il propre ? Compréhensible ?
