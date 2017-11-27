@@ -10,7 +10,7 @@
     - Y a-t-il des bugs ? Des cas non gérés ? Des vérifications non-faites ?
     - Le code est-il propre ? Compréhensible ?
 - ![#c5f015](/img/red.png) Inutile :
-    - Proposer d’autres manières de faire alors que celle en place fonctionne et est propre, compréhensible
+    - Proposer une autre manière de faire alors que celle en place fonctionne, est propre et compréhensible
     - Commenter du code non-modifié par le demandeur
     - Faire des louanges
     - Ne pas créer de nouvelles tâches non planifiées
