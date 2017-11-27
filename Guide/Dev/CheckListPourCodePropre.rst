@@ -119,6 +119,8 @@ L'essentiel
 |                          |                                                                                                        |
 |                          |   - Le nom des méthodes doivent être des verbes ou des verbes phrases.                                 |
 |                          |                                                                                                        |
+|                          |   - Éviter les verbes trop vagues                                                                      |
+|                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Découpage              |  * Pas de « grosse classe qui fait tout ». Une classe a un rôle clair et précis.                       |
 |                          |                                                                                                        |
@@ -169,6 +171,15 @@ L'essentiel
 |                          |        * Éviter l’utilisation des « null » (mettre des valeurs par défaut, …)                          |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Commentaires           |                                                                                                        |
+|                          | * Les commentaires présents sont utiles                                                                |
+|                          |                                                                                                        |
+|                          | * Les commentaires correspondent au code                                                               |
+|                          |                                                                                                        |
+|                          | * Pas de code en commentaire.                                                                          |
+|                          |                                                                                                        |
+|                          | * Est-ce que ce commentaire a pour but de pallier à un problème de code sale ?                         |
+|                          |   Pourquoi ne pas rendre propre le code sale ?                                                         |
+|                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
 | - Formatage              |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
