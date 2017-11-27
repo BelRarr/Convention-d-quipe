@@ -109,15 +109,15 @@ L'essentiel
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Nommage                | * Classes :                                                                                            |
 |                          |                                                                                                        |
-|                          |   - Le nom des classes doivent être des noms ou des noms-phrases.                                      |
+|                          |   - Le nom des classes doivent être des noms ou des noms-phrases                                       |
 |                          |                                                                                                        |
-|                          |   - Éviter les verbes.                                                                                 |
+|                          |   - Éviter les verbes                                                                                  |
 |                          |                                                                                                        |
-|                          |   - Éviter Manager, Processor, Data, Info (Trop vague).                                                |
+|                          |   - Éviter Manager, Processor, Data, Info (Trop vague)                                                 |
 |                          |                                                                                                        |
 |                          | * Méthodes :                                                                                           |
 |                          |                                                                                                        |
-|                          |   - Le nom des méthodes doivent être des verbes ou des verbes phrases.                                 |
+|                          |   - Le nom des méthodes doivent être des verbes ou des verbes phrases                                  |
 |                          |                                                                                                        |
 |                          |   - Éviter les verbes trop vagues                                                                      |
 |                          |                                                                                                        |
@@ -136,9 +136,9 @@ L'essentiel
 |                          |                                                                                                        |
 |                          |    - Une méthode doit soit                                                                             |
 |                          |                                                                                                        |
-|                          |    - retourner un résultat sans modifier l’état de l’objet (Requête),                                  |
+|                          |    - retourner un résultat sans modifier l’état de l’objet (Requête)                                   |
 |                          |                                                                                                        |
-|                          |    - modifier l’état d’un objet sans retourner de résultat (Commande).                                 |
+|                          |    - modifier l’état d’un objet sans retourner de résultat (Commande)                                  |
 |                          |                                                                                                        |
 |                          |  * Pour gérer les cas d’erreur et éviter d’utiliser « null » si un résultat n’est pas trouvé,          |
 |                          |                                                                                                        |
@@ -160,7 +160,7 @@ L'essentiel
 |                          |        * que ça ne compile pas ou                                                                      |
 |                          |                                                                                                        |
 |                          |        * dès le démarrage de l’application avec un message d’erreur explicite                          |
-|                          |          (exemple clé-valeur non présente dans app.config).                                            |
+|                          |          (exemple clé-valeur non présente dans app.config)                                             |
 |                          |                                                                                                        |
 |                          |    - Être en contrôle du cycle de vie des objets. Ex :                                                 |
 |                          |                                                                                                        |
@@ -175,14 +175,14 @@ L'essentiel
 |                          |                                                                                                        |
 |                          | * Les commentaires correspondent au code                                                               |
 |                          |                                                                                                        |
-|                          | * Pas de code en commentaire.                                                                          |
+|                          | * Pas de code en commentaire                                                                           |
 |                          |                                                                                                        |
 |                          | * Est-ce que ce commentaire a pour but de pallier à un problème de code sale ?                         |
 |                          |   Pourquoi ne pas rendre propre le code sale ?                                                         |
 |                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
 | - Formatage              |                                                                                                        |
-|                          | * La ligne doit être entièrement visible à l’écran.                                                    |
+|                          | * La ligne doit être entièrement visible à l’écran                                                     |
 |                          |                                                                                                        |
 |                          | * De même qu’un article de journal présente le titre avant les détails, placer les méthodes publiques  |
 |                          |   avant les méthodes privées                                                                           |
