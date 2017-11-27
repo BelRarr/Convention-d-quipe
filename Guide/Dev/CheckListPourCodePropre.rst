@@ -157,18 +157,18 @@ L'essentiel
 |                          |    - Si quelque chose risque de ne pas fonctionner en production,  faire en sorte que ça plante        |
 |                          |      le plus vite possible ; idéalement,                                                               |
 |                          |                                                                                                        |
-|                          |        + que ça ne compile pas ou                                                                      |
+|                          |      + que ça ne compile pas ou                                                                        |
 |                          |                                                                                                        |
-|                          |        + dès le démarrage de l’application avec un message d’erreur explicite                          |
+|                          |      + dès le démarrage de l’application avec un message d’erreur explicite                            |
 |                          |          (exemple clé-valeur non présente dans app.config)                                             |
 |                          |                                                                                                        |
 |                          |    - Être en contrôle du cycle de vie des objets. Ex :                                                 |
 |                          |                                                                                                        |
-|                          |        + Utiliser using pour les connexions aux BD                                                     |
+|                          |      + Utiliser using pour les connexions aux BD                                                       |
 |                          |                                                                                                        |
-|                          |        + Ne pas court-circuiter les cycles de vie des agents dans acquisition                          |
+|                          |      + Ne pas court-circuiter les cycles de vie des agents dans acquisition                            |
 |                          |                                                                                                        |
-|                          |        + Éviter l’utilisation des « null » (mettre des valeurs par défaut, …)                          |
+|                          |      + Éviter l’utilisation des « null » (mettre des valeurs par défaut, …)                            |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Commentaires           |                                                                                                        |
 |                          | * Les commentaires présents sont utiles                                                                |
