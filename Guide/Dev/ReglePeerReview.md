@@ -1,10 +1,11 @@
 #	Avant de demander une revue de code :
--	![#c5f015](/img/green.png) Ré-examiner le changement en se mettant dans la peau du reviewer  
+-	![#c5f015](/img/green.png) Faciliter au maximum le travail du reviewer
+-	![#c5f015](/img/green.png) Décrire le contexte du changement pour l'aider
+-	![#c5f015](/img/green.png) Ré-examiner le changement en se mettant dans sa peau  
 -   ![#c5f015](/img/green.png) Vérifier que le changement respecte les  règles d’équipe
 -	![#c5f015](/img/green.png) En cas de doute, aller poser des questions
--	![#c5f015](/img/green.png) Faciliter au maximum le travail de celui qui fait la revue de code
 -	![#c5f015](/img/green.png) Le code soumis doit être petit, incrémental et complet
--	![#c5f015](/img/green.png) Décrire le contexte du changement pour aider le reviewer
+
 #	Pour une revue de code efficace :
 - ![#c5f015](/img/red.png) Pas plus de 6 heures par semaines
 - ![#c5f015](/img/green.png) Focus sur le scope : 
