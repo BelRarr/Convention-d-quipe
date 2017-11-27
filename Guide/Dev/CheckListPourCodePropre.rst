@@ -182,6 +182,13 @@ L'essentiel
 |                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
 | - Formatage              |                                                                                                        |
+|                          | * La ligne doit être entièrement visible à l’écran.                                                    |
+|                          |                                                                                                        |
+|                          | * De même qu’un article de journal présente le titre avant les détails, placer les méthodes publiques  |
+|                          |   avant les méthodes privées                                                                           |
+|                          |                                                                                                        |
+|                          | * Les méthodes proches conceptuellement doivent être proches verticalement                             |
+|                          |                                                                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+ 
 
 
