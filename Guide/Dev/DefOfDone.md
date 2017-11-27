@@ -6,8 +6,8 @@
 3.	Fonctionnalité testée en dev
 
 # Nice to have :
-a.	Test enregistré dans le Work Item de la fonctionnalité
-b.	Revue de code effectuée
+1.	Test enregistré dans le Work Item de la fonctionnalité
+2.	Revue de code effectuée
 
 # Qualité
 - La qualité est la responsabilité de tous
