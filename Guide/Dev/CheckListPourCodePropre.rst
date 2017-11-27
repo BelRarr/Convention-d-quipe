@@ -160,7 +160,7 @@ L'essentiel
 |                          |      + que ça ne compile pas ou                                                                        |
 |                          |                                                                                                        |
 |                          |      + dès le démarrage de l’application avec un message d’erreur explicite                            |
-|                          |          (exemple clé-valeur non présente dans app.config)                                             |
+|                          |        (exemple clé-valeur non présente dans app.config)                                               |
 |                          |                                                                                                        |
 |                          |    - Être en contrôle du cycle de vie des objets. Ex :                                                 |
 |                          |                                                                                                        |
