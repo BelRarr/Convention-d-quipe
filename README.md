@@ -3,7 +3,7 @@
 ## Développement 
 - [Conventions d'équipe pour un code propre](./Guide/Dev/ConventionPourCodePropre.md)
 - [CheckLists pour un code propre](./Guide/Dev/CheckListPourCodePropre.rst)
-- [Peer Review pour un code propre](./Guide/Dev/ReglePeerReview.md)
+- [Peer Review pour un code propre](./Guide/Dev/ReglePeerReview.rst)
 - [Definition Of Done](./Guide/Dev/DefOfDone.md)
 
 ## Gestion de projets
