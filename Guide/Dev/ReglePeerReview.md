@@ -1,5 +1,5 @@
 #	Avant de demander une revue de code :
--	Ré-examiner le changement comme si nous n’en étions pas l’auteur et en se conformant aux règles d’équipe
+-	![#c5f015](/img/green.png) Ré-examiner le changement comme si nous n’en étions pas l’auteur et en se conformant aux règles d’équipe
 -	En cas de doute, aller poser des questions
 -	Faciliter au maximum le travail de celui qui fait la revue de code
 -	Le code soumis doit être petit, incrémental et complet
