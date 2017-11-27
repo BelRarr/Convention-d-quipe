@@ -12,7 +12,7 @@
 # Qualité
 - La qualité est la responsabilité de tous
 - La qualité se construit en continu
-- Feedback rapides = Qualité ++ * Défauts --
+- Feedback rapides = Davantage de qualité, moind de défauts --
     - Demander l’avis sur la qualité de vos tests aux analystes fonctionnels 
     - Demander l’avis sur votre code à vos pairs (Peer Review) 
     - Demander l’avis sur votre « pensée utilisateur » à votre Product Owner.
