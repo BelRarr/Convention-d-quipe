@@ -39,5 +39,5 @@
 
 
 # Procédures
-- [Laboratoire](https://github.com/mathieu-benoit/DevOpsOnAzureLab/readme.md)
+- [Laboratoire](https://github.com/mathieu-benoit/DevOpsOnAzureLab/blob/master/README.md)
 
