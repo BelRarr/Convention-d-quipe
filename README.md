@@ -39,5 +39,6 @@
 
 
 # Procédures
-- [Laboratoire](https://github.com/mathieu-benoit/DevOpsOnAzureLab/blob/master/README.md)
+- [VSTS](https://github.com/mathieu-benoit/DevOpsOnAzureLab/blob/master/README.md)
+- [Infrastructure as code](http://zigmax.net/)
 
