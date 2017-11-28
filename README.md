@@ -15,7 +15,7 @@
 ## DevOps, VSTS et Azure
 - [DevOps ? Lean ? Agile ?](./Guide/DevOps/DevopsLeanAgile.md)
 - [GitHub](./Guide/DevOps/GitHub.md)
-- [Semantic versioning et Branching](./Guide/DevOps/Branching.md)
+- [Semantic versioning et Branching](./Guide/DevOps/Branching.pdf)
 - [Intégration continue](./Guide/DevOps/CI.md)
 - [Pipelines de déploiements](./Guide/DevOps/CD.md)
 - [Infrastructure as code](./Guide/DevOps/ARM.md)
