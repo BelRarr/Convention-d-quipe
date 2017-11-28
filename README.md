@@ -10,7 +10,7 @@
 - [Lean appliqué aux TI](./Guide/Gdp/LeanAppliqueAuxTI.pdf)
 - [Mode Kanban avec VSTS](./Guide/Gdp/ModeKanban.md)
 - [Suivi des bugs](./Guide/Gdp/SuiviBugs.md)
-- [Registres de dettes techniques et de fausse bonnes idées](./Guide/Gdp/Registres.md)
+- [Registres de dettes techniques et de fausses bonnes idées](./Guide/Gdp/Registres.md)
 
 ## DevOps, VSTS et Azure
 - [DevOps ? Lean ? Agile ?](./Guide/DevOps/DevopsLeanAgile.md)
