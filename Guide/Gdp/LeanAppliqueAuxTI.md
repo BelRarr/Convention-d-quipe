@@ -1,1 +1,1 @@
-![LeanAppliqueAuxTI](/Guide/Gdp/LeanAppliqueAuxTI.pptx)
+![LeanAppliqueAuxTI](/Guide/Gdp/Lean appliqué aux TI.pptx.pptx)
