@@ -20,7 +20,7 @@ Bref, difficile de s’y retrouver !
 - DevOps répondrait très bien au « Comment ? », beaucoup de pratiques d’ingénierie sont dans le catalogue DevOps pour répondre aux défis que posent l’agilité et le Lean
 - l’agilité, le lean et DevOps sont interliés (Safe 4.5 donne une belle vue d’ensemble de mon point de vue)
 - Les pratiques d’ingénierie DevOps pourrait avoir des effets bénéfiques sur des projets Waterfall même si cela en limiterait les bénéfices.
-## Une approche visant à créer des cercles vertueux coût-qualité-délais
+## Une approche visant à créer des cercles vertueux coût-qualité-délais-motivation
 - En mode projet, on choisit généralement d’en sacrifier 1, généralement le moins quantifiable : la qualité
 - En effet, les métriques de qualités pour les projets à une seule livraison finale arrivent après les projets : succès des déploiements, nombre d’incidents lié au changement, utilisation réelle des fonctionnalités par les utilisateurs, gains de productivité réels pour les utilisateurs.
 - Ainsi les projets optimisent les couts-délais et les équipes de support tentent de faire barrage pour préserver la stabilité
