@@ -7,7 +7,7 @@
 - [Definition Of Done](./Guide/Dev/DefOfDone.md)
 
 ## Gestion de projets
-- [Lean appliqué aux TI](./Guide/Gdp/LeanAppliqueAuxTI.md)
+- [Lean appliqué aux TI](./Guide/Gdp/LeanAppliqueAuxTI.pdf)
 - [Mode Kanban avec VSTS](./Guide/Gdp/ModeKanban.md)
 - [Suivi des bugs](./Guide/Gdp/SuiviBugs.md)
 - [Registres de dettes techniques et de fausse bonnes idées](./Guide/Gdp/Registres.md)
