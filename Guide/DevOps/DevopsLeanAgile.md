@@ -1,6 +1,6 @@
 # DevOps ? Lean ? Agile ?
 
-J’ai remarqué que DevOps suscite de l’intérêt, des craintes, et de la confusion.
+DevOps suscite de l’intérêt, des craintes, et de la confusion.
 - De l’intérêt : Le public était essentiellement « Lean » ou « Dév », et en ressentait le potentiel sans vraiment pouvoir l’expliquer
 Des craintes :
     - La « boîte à outils » DevOps est technique, n’est-ce pas un nouveau trip techno ?
