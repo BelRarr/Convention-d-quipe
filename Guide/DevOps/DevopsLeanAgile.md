@@ -2,7 +2,7 @@
 
 DevOps suscite de l’intérêt, des craintes, et de la confusion.
 - De l’intérêt : Le public était essentiellement « Lean » ou « Dév », et en ressentait le potentiel sans vraiment pouvoir l’expliquer
-Des craintes :
+- Des craintes :
     - La « boîte à outils » DevOps est technique, n’est-ce pas un nouveau trip techno ?
     - Les clients des services TI rêvent de simplicité, regrettent le temps où ils ne dépendaient pas des services TI, où ils embauchaient un stagiaire qui implémentait les logiques métiers dans un fichier Excel ! DevOps semble ajouter de la lourdeur.
 - De la confusion :
