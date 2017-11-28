@@ -1,3 +1,17 @@
+# DevOps ? Lean ? Agile ?
+
+J’ai remarqué que DevOps suscite de l’intérêt, des craintes, et de la confusion.
+- De l’intérêt : Le public était essentiellement « Lean » ou « Dév », et en ressentait le potentiel sans vraiment pouvoir l’expliquer
+Des craintes :
+    - La « boîte à outils » DevOps est technique, n’est-ce pas un nouveau trip techno ?
+    - Les clients des services TI rêvent de simplicité, regrettent le temps où ils ne dépendaient pas des services TI, où ils embauchaient un stagiaire qui implémentait les logiques métiers dans un fichier Excel ! DevOps semble ajouter de la lourdeur.
+- De la confusion :
+    - Nous avons les méthodes traditionnelles, Macroscope, l’agilité, le Lean, ITIL, c’est déjà compliqué. Où se situe DevOps dans tout cela ? Pourquoi ajouter de nouveaux termes ?
+    - Qu’est-ce réellement DevOps ? Chacun semble avoir ses définitions, généralement selon ce qu’il a à vendre.
+    - Beaucoup d’outils, difficile de savoir comment le mettre en place et quels en étaient les gains concrets
+
+Bref, difficile de s’y retrouver !
+
 # Qu’est-ce que DevOps ? 
 
 ## Du Lean appliqué aux TI
