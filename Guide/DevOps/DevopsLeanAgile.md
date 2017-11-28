@@ -59,6 +59,5 @@ Bref, difficile de s’y retrouver !
 - Monitoring possible sur la réelle utilisation des fonctionnalités suivi par une enquête si une fonctionnalité n’est pas utilisée pour comprendre. Si la fonctionnalité n'est pas utilisé pour de bonnes raisons, inutile de développer des fonctionnalités équivalentes !
 
 # Pour aller plus loin
-
-Les principaux acteurs du mouvement DevOps ont écrit un livre de référence : « The DevOps Handbook », je vous le recommande !
-Pour connaître les gains économiques concrets de DevOps, je vous recommande le livre de Donald Reinertsen « The Principles of Product Development Flow: Second Generation Lean Product Development ». Je prévois de faire une présentation sur ce sujet.
+- Les principaux acteurs du mouvement DevOps ont écrit un livre de référence : « The DevOps Handbook », je vous le recommande !
+- Pour connaître les gains économiques concrets de DevOps, je vous recommande le livre de Donald Reinertsen « The Principles of Product Development Flow: Second Generation Lean Product Development ». 
