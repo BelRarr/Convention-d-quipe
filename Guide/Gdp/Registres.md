@@ -1,7 +1,7 @@
 # Registre dette technique
 
 
-| Date | Responsable | Type | Description | Coût de réparation | Coût de reporter | Risque de reporter | Raison du report | Plan pour réparer |
+| Date | Responsable | Type | Description | Coût pour réparer | Coût de reporter | Risque de reporter | Raison du report | Plan pour réparer |
 |------|-------------|------|-------------|--------------------|------------------|--------------------|------------------|--------------|
 |      |             |      |             |                    |                  |                    |                  |                   |
 
