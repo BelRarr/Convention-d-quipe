@@ -6,6 +6,12 @@
 |      |             |      |             |                    |                  |                    |                  |                   |
 
 
+# Registre des décisions d'architectures
+
+| Date | Auteur | titre | Contexte | Décision | Statut | Conséquences |
+|------|--------|-------------|----------------|----------------|----------------|----------------|
+|      |        |             |                |                |                |                |
+
 # Registre des fausses bonnes idées
 
 | Date | Auteur | Description | Lesson apprise |
