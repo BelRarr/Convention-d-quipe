@@ -166,9 +166,7 @@ L'essentiel
 |                          |                                                                                                        |
 |                          |    - Utiliser using pour les connexions aux BD                                                         |
 |                          |                                                                                                        |
-|                          |    - Ne pas court-circuiter les cycles de vie des agents dans acquisition                              |
-|                          |                                                                                                        |
-|                          |    - Éviter l’utilisation des « null » (mettre des valeurs par défaut, …)                              |
+|                          |  * Éviter l’utilisation des « null » (mettre des valeurs par défaut, …)                                |
 +--------------------------+--------------------------------------------------------------------------------------------------------+
 | - Commentaires           |                                                                                                        |
 |                          | * Les commentaires présents sont utiles                                                                |
